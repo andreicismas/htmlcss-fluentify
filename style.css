@@ -63,9 +63,48 @@
 /* main parth 1 */
 
 
+.main-container-2{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+}
+
+.box-3{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
 
 
 
+.main-container-2::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
+
+/* section footer */
+
+.footer-container-3{
+    height: 80px;
+    width: 90%;
+    margin: auto;
+}
+
+.box-2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+
+
+.footer-container-3::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
 
 
 
