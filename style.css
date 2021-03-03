@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section nav */
+
+.container{
+    /* height: 2000px; */
+    width: 100%;
+} 
+
+.section-container{
+    /* height: 80px; */
+    width: 100%;
+} 
+
+.head-container{
+    height: 80px;
+    width: 90%;
+    margin: auto;
+}
+
+.head-container::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
+.box-1{
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+
+/* head title */
+
+.head-container-2{
+    height: 400px;
+    width: 90%;
+    margin: auto;
+}
+
+.head-container-2::after{
+    content: "";
+    display: table;
+    clear: both;  
+}
+
+.head-container-3{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.box-2{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+/* main parth 1 */
+
+
+
+
+
+
+
+
+/* utility class */
+
+.border{
+    border: solid 1px black;
+}
