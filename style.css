@@ -13,8 +13,12 @@
 
 .section-container{
     /* height: 80px; */
-    width: 100%;
+    width: 100%;  
 } 
+
+.section-container.color-light-grey{
+    background-color: lightgray;
+}
 
 .head-container{
     height: 80px;
@@ -121,7 +125,7 @@ li a:hover {
     height: 100px;
     width: 90%;
     margin: auto;
-    background-color: lightgray
+   
 }
 
 .text-contain > *{
@@ -259,16 +263,31 @@ li a:hover {
     height: 80px ;
     width: 90% ;
     margin: auto ; 
+  
+}
+
+.footer-container-3 .column.box-2{
+    text-align: center;
+    padding-top: 25px;
+   
+}
+
+.footer-sellect{
+    position: relative;
+}
     
+
+.footer-container-3 .footer-sellect >*{
+    display:inline-block;
+    padding-left: 10px;
+
+margin-left: 20px;
+  
+  
 }
 
 
 
-.footer-container-3::after{
-    content: "";
-    display: table;
-    clear: both;  
-}
 
 
 
